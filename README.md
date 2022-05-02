@@ -1,12 +1,12 @@
 # 푸쉬메시지 실행
 
-푸쉬 보내는 api
-FCM_KEY => 파이어베이스 계정 로그인하여 cloud message의 키값 복사하여 사용
-(registration_ids, to), title, message(필수)
-registration_ids =>  보내고자하는 디바이스 토큰 여러개를 배열($token_list)값으로 전달 (1:다수) 
-to =>  푸쉬를 보내고자 하는 디바이스 토큰($token_list)을 전달 (1:1)
-data => title 푸쉬제목
-data => message 푸쉬내용
+푸쉬 보내는 api<br>
+FCM_KEY => 파이어베이스 계정 로그인하여 cloud message의 키값 복사하여 사용<br>
+(registration_ids, to), title, message(필수)<br>
+registration_ids =>  보내고자하는 디바이스 토큰 여러개를 배열($token_list)값으로 전달 (1:다수) <br>
+to =>  푸쉬를 보내고자 하는 디바이스 토큰($token_list)을 전달 (1:1)<br>
+data => title 푸쉬제목<br>
+data => message 푸쉬내용<br>
 
 ```PHP
 function send_notification($token_list, $title, $message, $clickAction="", $content_idx="") {
