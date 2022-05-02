@@ -11,7 +11,7 @@ data => message 푸쉬내용<br>
 ```PHP
 function send_notification($token_list, $title, $message, $clickAction="", $content_idx="") {
     //FCM 인증키
-    $FCM_KEY = 'AAAAh3UhYdw:APA91bGvgDN7DydoFfojdVo2D1yYto4jgdoIr-70rD7nm8XdDhSeCjWUYkmVCebpRaTXajHPAooNkFtpzti_LjqsEM1rl4M4qAjk4zShxdiEjCn1cutOJaVr6ewqeg9Ksw6SUEhufhZX';
+    $FCM_KEY = '푸쉬메시지용 key값 입력~';
     //FCM 전송 URL
     $FCM_URL = 'https://fcm.googleapis.com/fcm/send';
 
